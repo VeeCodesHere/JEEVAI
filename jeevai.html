@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jeevai Interiors | Coming Soon</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    overflow:hidden;
+     font-family: "DM Sans", sans-serif;
+
+}
+
+.hero{
+    position:relative;
+    width:100%;
+    height:100vh;
+    background:url("001.png") center 40%/cover no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.overlay{
+    position:absolute;
+    inset:0;
+    background:rgba(0, 0, 0, 0.185);
+    /* backdrop-filter:blur(1px); */
+}
+
+.content{
+    position:relative;
+    z-index:2;
+    text-align:center;
+    color:#fff;
+    max-width:800px;
+    margin-top:10%;
+}
+
+.logo{
+    font-size:1rem;
+    letter-spacing:8px;
+    margin-bottom:0;
+    text-transform:uppercase;
+    opacity:0.9;
+}
+
+h1{
+    font-family:'Playfair Display',serif;
+    font-size:clamp(3rem,10vw,7rem);
+    line-height:1;
+    letter-spacing: -8px;
+    margin-bottom:20px;
+    color: rgb(246, 255, 168);
+    text-shadow: 2px 2px 1px #000000;
+}
+
+p{
+    font-size:1.1rem;
+    line-height:1.8;
+    max-width:600px;
+    letter-spacing: -1px;
+    margin:auto;
+    opacity:0.9;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.divider{
+    width:120px;
+    height:2px;
+    background:#c89b63;
+    margin:30px auto;
+}
+
+.contact{
+    
+    letter-spacing:2px;
+    font-size:0.9rem;
+    background: #fcf375;
+    color: rgb(99, 32, 12);
+    margin:5% auto 0;
+    width:25%;
+    height: 2rem;
+    border-radius: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact a{
+    color:#6b1e07;
+    text-decoration:none;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.footer{
+    position:absolute;
+    bottom:30px;
+    left:50%;
+    transform:translateX(-50%);
+    color:#fff;
+    font-size:0.85rem;
+    letter-spacing:2px;
+    z-index:2;
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+    <div class="overlay"></div>
+
+    <div class="content">
+
+        <div class="logo">
+            JEEVAI INTERIORS
+        </div>
+
+        <h1>Coming Soon</h1>
+
+        <div class="divider"></div>
+
+        <p>
+            We are crafting spaces that inspire, comfort and elevate everyday living.
+            Our new website is currently under construction.
+        </p>
+
+        <div class="contact" >
+            <a href="mailto:jeevaiinteriors.work@gmail.com">CONNECT WITH US</a>
+        </div>
+
+    </div>
+   
+    <div class="footer">
+        © 2026 JEEVAI INTERIORS
+    </div>
+
+</section>
+
+</body>
+</html>
